@@ -1,0 +1,53 @@
+
+@font-face {
+    font-family: NotoSansSC-Regular;
+    src: url(./NotoSansSC-Regular.woff2);
+}
+@font-face {
+    font-family: NotoSansSC-Bold;
+    src: url(./NotoSansSC-Bold.woff2);
+}
+
+@font-face {
+    font-family: Google_Sans_Regular;
+    src: url(./GoogleSans-Regular.ttf);
+}
+@font-face {
+    font-family: Google_Sans_Bold;
+    src: url(./GoogleSans-Bold.ttf);
+}
+
+body{
+    font-family: Google_Sans_Regular,NotoSansSC-Regular;
+}
+
+h1{
+    font-family: Google_Sans_Bold,NotoSansSC-Bold;
+    font-weight: normal;
+}
+
+h2{
+    font-family: Google_Sans_Bold,NotoSansSC-Bold;
+    font-weight: normal;
+}
+
+h3{
+    font-family: Google_Sans_Bold,NotoSansSC-Bold;
+    font-weight: normal;
+}
+h4{
+    font-family: Google_Sans_Bold,NotoSansSC-Bold;
+    font-weight: normal;
+}
+h5{
+    font-family: Google_Sans_Bold,NotoSansSC-Bold;
+    font-weight: normal;
+}
+h6{
+    font-family: Google_Sans_Bold,NotoSansSC-Bold;
+    font-weight: normal;
+}
+
+input,textarea{
+    font-family: Google_Sans_Regular,NotoSansSC-Regular;
+}
