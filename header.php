@@ -5,15 +5,17 @@
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
     <script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
     <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/highlight.js/11.5.1/styles/a11y-dark.min.css">
+
     <!-- 引入本地css样式及json -->
     <link rel="stylesheet" href="<?php $this->options->themeUrl('/css/css.css'); ?>"></link>
     <link rel="stylesheet" href="<?php $this->options->themeUrl('/css/color.css'); ?>"></link>
     <link rel="stylesheet" href="<?php $this->options->themeUrl('/font/font.css'); ?>"></link>
     <script type="text/javascript" src="<?php $this->options->themeUrl('/js/js.js'); ?>"></script>
     
-
-
-    <!-- pjax相关 -->
+    <!-- 输出headers -->
+    <?php $this->header(); ?>
+   
+    <!-- PJAX相关 -->
     <?php if (!empty($this->options->themeOptions) && in_array('UsePJAX', $this->options->themeOptions)){ ?>
         <script src="https://cdn.bootcdn.net/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.js"></script>
         <script>
@@ -25,7 +27,7 @@
                 });
         </script>
     <?php } ?>
-
+            
 
     <title>
         <?php $this->archiveTitle(array(
