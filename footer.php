@@ -21,10 +21,6 @@
                     <span>Theme by </span>
                     <a href="https://www.bing-xuan.xyz">冰轩OwO</a>
                 </li>
-                <li class="CDN">
-                    <span>jQuery & highlight.js CDN by </span>
-                    <a href="https://www.bootcdn.cn">BootCDN</a>
-                </li>
                 <!--
                 <li>
                     <a href="">XICP备0000000000号-0</a>
